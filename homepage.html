@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="recipeProject.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="homePageIcon.webp" alt="Website Logo" class="logo">
+        <a href="#home" id="homeButton">Home</a>
+        <a href="#liked" id="likeButton">Liked Posts</a>
+    </div>
+    <div class="liked-recipes-container" style="display: none;"></div>
+    <div class="main-content">
+        <section class="image-gallery">
+            <img src="" alt="Image 1">
+            <div class="bottom-box">
+                <h2 class = "title">Title</h2>
+                <p class = "descriptionShort">Short Description</p>
+            <div class="arrow left"></div>
+            <div class="arrow right"></div>
+        </section>
+    </div>
+    <div class="right-sidebar">
+        <div class="logo-container">
+            <a href="https://www.myplate.gov/" target="_blank">
+                <img src="myplate.webp" alt="nutrition facts">
+            </a>
+        </div>
+        <div class="logo-container">
+            <a href="https://health.gov/our-work/nutrition-physical-activity/dietary-guidelines" target="_blank">
+                <img src="knifefork.webp" alt="nutrition facts">
+            </a>
+        </div>
+        <div class="liked-recipes"></div>
+    </div>
+        <script src = "recipesFile.js"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>
